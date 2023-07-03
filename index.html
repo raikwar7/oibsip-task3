@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Wizard</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+</head>
+<body>
+    <header>
+    <div class="log">
+<img src="Screenshot__148_-removebg-preview.png">
+    </div> 
+    
+    <div class="menu">
+    <li><button class="hov"> <a href="index.html">Home</a></button></li>
+    <li><button><a href="https://en.wikipedia.org/wiki/Celsius">celsius</a></button></li>
+    <li><button><a href=" https://en.wikipedia.org/wiki/Fahrenheit">farenhiet</a></button></li>
+</div></header>
+ <div class="miii">  Temperature Convertor </div><br>
+ 
+    <div class="main"> 
+      <form action="" id="cal" onsubmit=" convertor() ;return false">
+    <input type="number" id="tem" name="tem" placeholder="Enter the value" class="teee">
+    <select id="option" name="option" class="teee">
+        <option value="celsius">Celsius</option>
+        <option value="faren">farenhiet</option>
+        
+    </select> <br><br> <div class="last">
+    <input type="submit" id="te" class="tee" name="submit"></div><br>
+    <div class="reult">
+        Converted value:
+    <span id="result"></span></div> 
+     
+</form> 
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

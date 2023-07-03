@@ -1,0 +1,84 @@
+ body{
+    background-image: url(AdorableBrownEuropeanfiresalamander-max-1mb.gif);
+    background-size: cover;
+}
+ header{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+ }
+ header img{
+    max-inline-size: 50%;
+    block-size: auto;
+ }
+ .menu{
+    padding-top: 4vw;
+    padding-right:3vw ;
+    display: flex;
+    justify-content: center;
+    gap: 4vw;
+    font-size: x-large;
+    font-weight: bold;
+ }
+ .menu a{
+    text-decoration:none;
+ }
+ .main{
+    box-shadow: 1px 2px 2px 3px rgb(53, 210, 22);
+    background-image: linear-gradient(to right, rgb(234, 32, 194) , rgb(217, 237, 237));
+    display: flex;
+    justify-content: center;
+    border: 4px solid black;
+    max-width: 30vw;
+    margin-left: 30vw;
+    padding: 4vw;
+ }
+ .main img{
+    max-height: 30vw;
+    max-inline-size: 100%;
+    block-size: auto;  
+ }
+  .last{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    padding: 2vw;
+  }
+  button{
+    max-width: 15vw;
+    padding: 1vw;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    font-size: large;
+    background-image: linear-gradient(to right, rgb(224, 87, 155) , rgb(217, 237, 237));
+  } 
+  .hov button:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .reult{
+    border: 2px solid black;
+    padding: 1vw;
+    color: green;
+    background-image: linear-gradient(to right, rgb(237, 180, 87) , rgb(217, 237, 237));
+    font-weight: bolder;
+    font-size: large;
+  }
+  .tee{
+    color: red;
+    padding: 0.5vw;
+    font-weight: bolder;
+    font-size: large;  
+  }
+  .teee{
+   padding: .5vw;
+     font-size: large;
+  }
+  .miii{
+    display: flex;
+    justify-content: center;
+    font-size: 4vw;
+    font-weight: bolder;
+    color: rgb(245, 129, 239);
+  }
